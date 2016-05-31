@@ -1,0 +1,644 @@
+2015-05-28 14:06:32 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:08:32 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:10:56 Error: [Cake\Database\Exception] Cannot describe teste. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('teste', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('teste')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(204): Bake\Shell\Task\ModelTask->findHasMany(Object(Cake\ORM\Table), Array)
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Login')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Login')
+#7 [internal function]: Bake\Shell\BakeShell->all('login')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:12:32 Error: [Cake\Database\Exception] Cannot describe teste. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('teste', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('teste')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(324): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(204): Bake\Shell\Task\ModelTask->findHasMany(Object(Cake\ORM\Table), Array)
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Login')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Login')
+#7 [internal function]: Bake\Shell\BakeShell->all('login')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:22:06 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:22:56 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:26:15 Error: [Cake\Database\Exception] Cannot describe controleliberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controleliberac...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controleliberac...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(243): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(195): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\ControleliberacaoTable), Array)
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\ControleliberacaoTable))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Controleliberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Controleliberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleliberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:26:18 Error: [Cake\Database\Exception] Cannot describe controleliberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controleliberac...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controleliberac...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(243): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(195): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\ControleliberacaoTable), Array)
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\ControleliberacaoTable))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:26:41 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:26:58 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:27:01 Error: [Cake\Database\Exception] Cannot describe controleliberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controleliberac...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controleliberac...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Controleliberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Controleliberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleliberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:27:05 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:28:34 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:28:41 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:28:46 Error: [Cake\Database\Exception] Cannot describe controle_liberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controle_libera...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controle_libera...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('ControleLiberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('ControleLiberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleLiberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-05-28 14:29:10 Error: [Cake\Database\Exception] Cannot describe controleliberacao. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controleliberac...', Array)
+#1 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controleliberac...')
+#2 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Controleliberac...')
+#6 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Controleliberac...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controleliberac...')
+#8 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\ProjetoESII\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\ProjetoESII\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-06-30 14:36:12 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(201): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\Projeto\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-06-30 14:36:56 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(201): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\Projeto\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-06-30 14:38:09 Error: [Cake\Console\Exception\MissingShellException] Shell class for "All" could not be found.
+Exception Attributes: array (
+  'class' => 'All',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(201): Cake\Console\ShellDispatcher->findShell('all')
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\Projeto\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-06-30 14:40:37 Error: [Cake\Database\Exception] Cannot describe controletransporteorte. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('controletranspo...', Array)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('controletranspo...')
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Controletranspo...')
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Controletranspo...')
+#7 [internal function]: Bake\Shell\BakeShell->all('controletranspo...')
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\Projeto\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-07-03 13:08:08 Error: [Cake\Database\Exception] Cannot describe costagem. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('costagem', Array)
+#1 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('costagem')
+#2 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Costagem')
+#6 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Costagem')
+#7 [internal function]: Bake\Shell\BakeShell->all('costagem')
+#8 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\Projeto\Cake\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\Projeto\Cake\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-12-04 14:24:19 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Abake" could not be found.
+Exception Attributes: array (
+  'class' => 'Abake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(201): Cake\Console\ShellDispatcher->findShell('abake')
+#1 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-12-04 14:24:26 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Abake" could not be found.
+Exception Attributes: array (
+  'class' => 'Abake',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(201): Cake\Console\ShellDispatcher->findShell('abake')
+#1 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2015-12-04 14:24:33 Error: [Cake\Database\Exception] Cannot describe liberacoes. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('liberacoes', Array)
+#1 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('liberacoes')
+#2 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Liberacoes')
+#6 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Liberacoes')
+#7 [internal function]: Bake\Shell\BakeShell->all('liberacoes')
+#8 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-12-12 19:54:47 Error: [Cake\Database\Exception] Cannot describe analisedeovos. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('analisedeovos', Array)
+#1 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('analisedeovos')
+#2 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Analisedeovos')
+#6 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Analisedeovos')
+#7 [internal function]: Bake\Shell\BakeShell->all('analisedeovos')
+#8 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-12-12 19:55:02 Error: [Cake\Database\Exception] Cannot describe analisedeflorescencia. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('analisedeflores...', Array)
+#1 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('analisedeflores...')
+#2 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Analisedeflores...')
+#6 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Analisedeflores...')
+#7 [internal function]: Bake\Shell\BakeShell->all('analisedeflores...')
+#8 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-12-12 19:55:14 Error: [Cake\Database\Exception] Cannot describe identificacaodeespecies. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('identificacaode...', Array)
+#1 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('identificacaode...')
+#2 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Identificacaode...')
+#6 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Identificacaode...')
+#7 [internal function]: Bake\Shell\BakeShell->all('identificacaode...')
+#8 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-12-12 19:55:22 Error: [Cake\Database\Exception] Cannot describe ovitrampa. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('ovitrampa', Array)
+#1 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('ovitrampa')
+#2 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Ovitrampa')
+#6 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Ovitrampa')
+#7 [internal function]: Bake\Shell\BakeShell->all('ovitrampa')
+#8 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2015-12-12 20:01:48 Error: [Cake\Database\Exception] Cannot describe analisedefrorescencia. It has 0 columns.
+Stack Trace:
+#0 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('analisedefrores...', Array)
+#1 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(426): Cake\Database\Schema\CachedCollection->describe('analisedefrores...')
+#2 C:\xampp\htdocs\vendor\cakephp\cakephp\src\ORM\Table.php(502): Cake\ORM\Table->schema()
+#3 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#4 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Analisedefrores...')
+#6 C:\xampp\htdocs\vendor\cakephp\bake\src\Shell\BakeShell.php(241): Bake\Shell\Task\ModelTask->main('Analisedefrores...')
+#7 [internal function]: Bake\Shell\BakeShell->all('analisedefrores...')
+#8 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\Shell.php(380): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#10 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#11 C:\xampp\htdocs\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#12 C:\xampp\htdocs\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2016-03-04 22:41:30 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Login" could not be found.
+Exception Attributes: array (
+  'class' => 'Login',
+)
+Stack Trace:
+#0 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(201): Cake\Console\ShellDispatcher->findShell('login')
+#1 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#2 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#3 C:\xampp\htdocs2\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2016-03-04 22:44:02 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'moscamed'@'localhost' (using password: YES)
+Stack Trace:
+#0 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'moscamed', 'moscamed', Array)
+#1 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(806): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(782): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(89): Bake\Shell\Task\ModelTask->listAll()
+#10 [internal function]: Bake\Shell\Task\ModelTask->main()
+#11 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(391): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#13 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#14 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#15 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#16 C:\xampp\htdocs2\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2016-03-04 22:44:10 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'moscamed'@'localhost' (using password: YES)
+Stack Trace:
+#0 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'moscamed', 'moscamed', Array)
+#1 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(806): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(782): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(186): Bake\Shell\Task\ModelTask->listAll()
+#10 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\LoginTable))
+#11 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Login')
+#12 [internal function]: Bake\Shell\Task\ModelTask->main('login')
+#13 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(391): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#15 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#16 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#17 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#18 C:\xampp\htdocs2\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2016-03-04 22:44:31 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'moscamed'@'localhost' (using password: YES)
+Stack Trace:
+#0 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'moscamed', 'moscamed', Array)
+#1 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(806): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(782): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(186): Bake\Shell\Task\ModelTask->listAll()
+#10 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\LoginTable))
+#11 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Login')
+#12 [internal function]: Bake\Shell\Task\ModelTask->main('login')
+#13 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(391): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#15 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#16 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#17 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#18 C:\xampp\htdocs2\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2016-03-04 22:46:58 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'moscamed'@'localhost' (using password: YES)
+Stack Trace:
+#0 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'moscamed', 'moscamed', Array)
+#1 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(806): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(782): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(89): Bake\Shell\Task\ModelTask->listAll()
+#10 [internal function]: Bake\Shell\Task\ModelTask->main()
+#11 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(391): call_user_func_array(Array, Array)
+#12 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#13 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#14 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#15 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#16 C:\xampp\htdocs2\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2016-03-04 22:47:01 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'moscamed'@'localhost' (using password: YES)
+Stack Trace:
+#0 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'moscamed', 'moscamed', Array)
+#1 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(806): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(782): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(186): Bake\Shell\Task\ModelTask->listAll()
+#10 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\LoginTable))
+#11 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Login')
+#12 [internal function]: Bake\Shell\Task\ModelTask->main('login')
+#13 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(391): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#15 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#16 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#17 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#18 C:\xampp\htdocs2\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2016-03-04 23:17:46 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'moscamed'@'localhost' (using password: YES)
+Stack Trace:
+#0 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'moscamed', 'moscamed', Array)
+#1 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(89): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(46): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(44): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Database\Connection.php(319): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(806): Cake\Database\Connection->schemaCollection()
+#8 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(782): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(186): Bake\Shell\Task\ModelTask->listAll()
+#10 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\LoginTable))
+#11 C:\xampp\htdocs2\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Login')
+#12 [internal function]: Bake\Shell\Task\ModelTask->main('login')
+#13 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(391): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#15 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#16 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#17 C:\xampp\htdocs2\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#18 C:\xampp\htdocs2\bin\cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
